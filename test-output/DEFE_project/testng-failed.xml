@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DEFE_project]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="flipkart_project.utilities.MethodInterceptor"/>
+  </listeners>
+  <test thread-count="5" name="chromeTest(failed)">
+    <classes>
+      <class name="flipkart.testcases.flipkartAssuredProduct__Test">
+        <methods>
+          <include name="setup"/>
+          <include name="status"/>
+          <include name="nevigateToURL"/>
+          <include name="startTest"/>
+          <include name="closeURL"/>
+          <include name="flipkartAssuredProduc"/>
+        </methods>
+      </class> <!-- flipkart.testcases.flipkartAssuredProduct__Test -->
+      <class name="flipkart.testcases.compareFeature__Test">
+        <methods>
+          <include name="setup"/>
+          <include name="status"/>
+          <include name="nevigateToURL"/>
+          <include name="compareTwoProduct"/>
+          <include name="startTest"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- flipkart.testcases.compareFeature__Test -->
+      <class name="flipkart.testcases.cartBtn__Test">
+        <methods>
+          <include name="cartbtnTest"/>
+          <include name="setup"/>
+          <include name="status"/>
+          <include name="nevigateToURL"/>
+          <include name="startTest"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- flipkart.testcases.cartBtn__Test -->
+      <class name="flipkart.testcases.groceryTab__Test">
+        <methods>
+          <include name="setup"/>
+          <include name="status"/>
+          <include name="nevigateToURL"/>
+          <include name="startTest"/>
+          <include name="closeURL"/>
+          <include name="groceryitem"/>
+        </methods>
+      </class> <!-- flipkart.testcases.groceryTab__Test -->
+      <class name="flipkart.testcases.mobileTab__Test">
+        <methods>
+          <include name="mobileTabTest"/>
+          <include name="setup"/>
+          <include name="status"/>
+          <include name="nevigateToURL"/>
+          <include name="startTest"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- flipkart.testcases.mobileTab__Test -->
+      <class name="flipkart.testcases.productSearch__Test">
+        <methods>
+          <include name="productsearchTest"/>
+          <include name="setup"/>
+          <include name="status"/>
+          <include name="nevigateToURL"/>
+          <include name="startTest"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- flipkart.testcases.productSearch__Test -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [DEFE_project] -->

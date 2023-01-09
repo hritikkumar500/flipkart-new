@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DEFE_project">
+<listeners>
+<listener class-name="flipkart_project.utilities.MethodInterceptor"/>
+</listeners>
+
+  <test name="chromeTest">
+    <classes>
+      <class name="flipkart.testcases.flipkartLogin_Test"/>
+      <class name="flipkart.testcases.flipKartPlus__Test"/>
+      <class name="flipkart.testcases.customerCare__Test"/>
+      <class name="flipkart.testcases.groceryTab__Test"/>
+      <class name="flipkart.testcases.mobileTab__Test"/>
+      <class name="flipkart.testcases.productSearch__Test"/>
+      <class name="flipkart.testcases.cartBtn__Test"/>
+      <class name="flipkart.testcases.giftCard__Test"/>
+      <class name="flipkart.testcases.flightSearch__Test"/>
+      <class name="flipkart.testcases.seller_feeStructure__Test"/>
+      <class name="flipkart.testcases.seller_faqs__Test"/>
+      <class name="flipkart.testcases.twoWheelerTab__Test"/>
+      <class name="flipkart.testcases.explosePlus_btn__Test"/>
+      <class name="flipkart.testcases.pressBtn__Test"/>
+      <class name="flipkart.testcases.pressBtn_Special__ExploreMap_Test"/>
+      <class name="flipkart.testcases.flipkartCareer__Test"/>
+      <class name="flipkart.testcases.appliancesBtn__Test"/>
+      <class name="flipkart.testcases.flipkartAssuredProduct__Test"/>
+      <class name="flipkart.testcases.compareFeature__Test"/>
+
+      
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
